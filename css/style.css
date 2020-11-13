@@ -230,6 +230,10 @@ body {
   border: 1px solid #e8e8e8;
   padding: 5px 15px;
   margin-bottom: 15px;
+  font-family: "SFProDisplay", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #595959;
 }
 .login-forget {
   text-align: center;
@@ -261,6 +265,8 @@ body {
   background: #fafafa;
   border: 1px solid #e8e8e8;
   padding: 15px 25px;
+}
+.user-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -269,16 +275,59 @@ body {
   display: flex;
   align-items: center;
   text-decoration: none;
+  margin-right: auto;
 }
 .user-avatar {
   border-radius: 50%;
   margin-right: 17px;
+  object-fit: cover;
 }
 .user-name {
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
   color: #595959;
+}
+.edit {
+  margin-right: 10px;
+}
+.edit-container {
+  display: none;
+}
+.edit-container.visible {
+  display: block;
+}
+.edit-title {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: "SFProDisplay-Semibold", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #595959;
+}
+.edit-label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: "SFProDisplay", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+.edit-input {
+  display: block;
+  margin: auto;
+  width: 100%;
+  padding: 5px 10px;
+}
+.edit-btn {
+  text-transform: uppercase;
+  width: 100%;
+  margin-top: 10px;
+}
+.icon-edit {
+  width: 18px;
+  height: 18px;
 }
 .icon-exit {
   width: 20px;
